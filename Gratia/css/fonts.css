@@ -1,0 +1,27 @@
+@font-face{
+	font-family: "Crimson";
+	src: url('../fonts/Crimson-Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url('../fonts/montserrat-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Selima";
+	src: url('../fonts/selima_.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Ubuntu";
+	src: url('../fonts/ubuntu.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

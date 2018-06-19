@@ -1,0 +1,1452 @@
+/* xs (<=543px) */
+@media (max-width: 575px) { 
+	section.header-menu .logo-header {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2% 10% 20px 0;
+	}
+	section.header-menu .logo-header a {
+		padding-left: 5%;
+	}
+	section.slider .item-slider {
+		width: 100%;
+		height: 300px;
+	}
+
+	section.slider .owl-prev {
+		position: absolute;
+		left: 4%;
+		top: 30%;
+	}
+	section.slider .owl-prev img {
+		width: 20px;
+		height: 30px;
+	}
+	section.slider .owl-next {
+		position: absolute;
+		right: 4%;
+		top: 30%;
+	}
+	section.slider .owl-next img {
+		width: 20px;
+		height: 30px;
+	}
+
+	section.slider .nav-dots {
+	position: absolute;
+	width: 3%;
+	top: 60%;
+	left: 4%;
+	z-index: 98;
+	}
+
+	section.slider .nav-dots .dot {
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+	}
+
+	section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 0.5em;
+	}
+
+	header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 90%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 0.5em;
+}
+
+.book-table {
+	position: absolute;
+	top: 85%;
+	right: 7%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 0.5em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 40px;
+	width: 100%;
+}
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1em;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+section.perfection div.desserts {
+	height: 300px;
+	background: url(../img/desserts.jpg);
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 20% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0 ;
+}
+section.perfection div.smoothies {
+	height: 450px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	box-shadow: none;
+}
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #151b29;
+	font-family: "Montserrat";
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 20% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0;
+}
+section.perfection div.breakfast {
+	height: 300px;
+	background: url(../img/Brek.jpg);
+	margin-top: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 30px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 10px;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	transition-property: color, border-bottom;
+	transition-duration: .5s, .5s;
+	transition-timing-function: ease-in-out, linear;
+}
+section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 13% 0 13%;
+	margin: 46px 0;
+}
+section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 1.5em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 0.5em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	transition-property: color, border;
+	transition-duration: .5s, .5s;
+	transition-timing-function: linear, ease-in;
+ }
+ section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 2em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10% 0 3%;
+}
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10%  0;
+}
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 15%;
+}
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 0;
+}
+footer .logo-footer {
+	position: absolute;
+	width: 10%;
+	height: 10%x;
+	top: 20%;
+	left: 46%;
+	z-index: 22;
+}
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1em;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear; 
+}
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 35%;
+}
+
+
+
+	div.menu {
+		display: none;
+	}
+
+	div.burg-menu {
+		display: block;
+	}
+
+ }
+ 
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) { 
+	section.header-menu .logo-header {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2% 10% 20px 0;
+	white-space: nowrap;
+	}
+	section.header-menu .logo-header a {
+		padding-left: 0;
+	}
+	section.header-menu .logo-header img {
+		padding-left: 10%;
+	}
+
+	section.slider .item-slider {
+		width: 100%;
+		height: 450px;
+	}
+
+	section.slider .owl-prev {
+		position: absolute;
+		left: 4%;
+		top: 28%;
+	}
+	section.slider .owl-prev img {
+		width: 30px;
+		height: 40px;
+	}
+	section.slider .owl-next {
+		position: absolute;
+		right: 4%;
+		top: 28%;
+	}
+	section.slider .owl-next img {
+		width: 30px;
+		height: 40px;
+	}
+
+	section.slider .nav-dots {
+	position: absolute;
+	width: 3%;
+	top: 70%;
+	left: 4%;
+	z-index: 98;
+	}
+
+	section.slider .nav-dots .dot {
+	margin-bottom: 10px;
+	padding-bottom: 7px;
+	}
+
+	section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 0.8em;
+	}
+
+	header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 85%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+}
+
+.book-table {
+	position: absolute;
+	top: 84%;
+	right: 5%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+
+
+section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 60px;
+	width: 100%;
+}
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1em;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+section.perfection div.desserts {
+	height: 300px;
+	background: url(../img/desserts.jpg);
+	margin-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 35% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0 ;
+}
+section.perfection div.smoothies {
+	height: 350px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	box-shadow: 0 5px 100px #b5babf;
+}
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 85% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0;
+}
+section.perfection div.breakfast {
+	height: 300px;
+	background: url(../img/Brek.jpg);
+	margin-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 40px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 10px;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	transition-property: color, border-bottom;
+	transition-duration: .5s, .5s;
+	transition-timing-function: ease-in-out, linear;
+}  
+
+section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 10% 0 10%;
+	margin: 80px 0;
+}
+section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 2em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 1em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	transition-property: color, border;
+	transition-duration: .5s, .5s;
+	transition-timing-function: linear, ease-in;
+ }  
+ section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 2em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 3% 0;
+}
+section.reach-this p {
+	font-family: "Crimson";
+	font-size: 1,5em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+}
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10%  0;
+}
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 30%;
+}
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 0;
+}
+footer .logo-footer {
+	position: absolute;
+	width: 10%;
+	height: 10%x;
+	top: 23%;
+	left: 47%;
+	z-index: 22;
+}
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1.2em;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear; 
+}
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 40%;
+}
+
+	div.menu {
+		display: none;
+	}
+
+	div.burg-menu {
+		display: block;
+	}
+
+
+ }
+ 
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+	section.header-menu div.menu {
+		padding-left: 16%;
+	}
+	#main-menu-header > ul > li {
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		padding: 0;
+		margin-right: 5%;
+	}
+
+	 section.slider .item-slider {
+		width: 100%;
+		height: 570px;
+	}
+
+	section.slider .owl-prev {
+		position: absolute;
+		left: 4%;
+		top: 28%;
+	}
+	section.slider .owl-prev img {
+		width: 40px;
+		height: 60px;
+	}
+	section.slider .owl-next {
+		position: absolute;
+		right: 4%;
+		top: 28%;
+	}
+	section.slider .owl-next img {
+		width: 40px;
+		height: 60px;
+	}
+
+	section.slider .nav-dots {
+	position: absolute;
+	width: 4%;
+	top: 73%;
+	left: 4%;
+	z-index: 98;
+	}
+
+	section.slider .nav-dots .dot {
+	margin-bottom: 12px;
+	padding-bottom: 7px;
+	}
+
+	section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	}
+
+	header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 89%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+}
+
+.book-table {
+	position: absolute;
+	top: 85%;
+	right: 5%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+
+section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 60px;
+	width: 100%;
+}
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1em;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+section.perfection div.desserts {
+	height: 300px;
+	background: url(../img/desserts.jpg);
+	margin-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 35% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0 ;
+}
+section.perfection div.smoothies {
+	height: 350px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	box-shadow: 0 5px 100px #b5babf;
+}
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 85% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0;
+}
+section.perfection div.breakfast {
+	height: 300px;
+	background: url(../img/Brek.jpg);
+	margin-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 40px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 10px;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	transition-property: color, border-bottom;
+	transition-duration: .5s, .5s;
+	transition-timing-function: ease-in-out, linear;
+}  
+
+section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 10% 0 10%;
+	margin: 90px 0;
+}
+section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 1.5em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 1em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	transition-property: color, border;
+	transition-duration: .5s, .5s;
+	transition-timing-function: linear, ease-in;
+ }  
+ section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 2em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 3% 0;
+}
+section.reach-this p {
+	font-family: "Crimson";
+	font-size: 1,5em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+}
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10%  0;
+}
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 30%;
+}
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 0;
+}
+footer .logo-footer {
+	position: absolute;
+	width: 10%;
+	height: 10%x;
+	top: 23%;
+	left: 45%;
+	z-index: 22;
+}
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1.2em;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear; 
+}
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 40%;
+}
+
+ }
+ 
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	section.header-menu div.menu {
+		padding-left: 15%;
+	}
+	#main-menu-header > ul > li {
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		padding: 0;
+		margin-right: 5%;
+	}
+
+	 section.slider .item-slider {
+		width: 100%;
+		height: 600px;
+	}
+
+	section.slider .owl-prev {
+		position: absolute;
+		left: 4%;
+		top: 28%;
+	}
+	section.slider .owl-prev img {
+		width: 45px;
+		height: 65px;
+	}
+	section.slider .owl-next {
+		position: absolute;
+		right: 4%;
+		top: 28%;
+	}
+	section.slider .owl-next img {
+		width: 45px;
+		height: 65px;
+	}
+
+	section.slider .nav-dots {
+	position: absolute;
+	width: 4%;
+	top: 73%;
+	left: 4%;
+	z-index: 98;
+	}
+
+	section.slider .nav-dots .dot {
+	margin-bottom: 12px;
+	padding-bottom: 7px;
+	}
+
+	section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	}
+
+	header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 89%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.book-table {
+	position: absolute;
+	top: 85%;
+	right: 5%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+
+section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 80px;
+	width: 100%;
+}
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1.2em;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+section.perfection div.desserts {
+	height: 350px;
+	background: url(../img/desserts.jpg);
+	margin-top: 35px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 35% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0 ;
+}
+section.perfection div.smoothies {
+	height: 425px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	box-shadow: 0 5px 100px #b5babf;
+}
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 70% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1em;
+	padding: 5% 0;
+}
+section.perfection div.breakfast {
+	height: 350px;
+	background: url(../img/Brek.jpg);
+	margin-top: 35px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 50px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 10px;
+	font-family:"Montserrat";
+	font-size: 1.2em;
+	font-weight: bold;
+	transition-property: color, border-bottom;
+	transition-duration: .5s, .5s;
+	transition-timing-function: ease-in-out, linear;
+}  
+
+section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 10% 0 10%;
+	margin: 100px 0;
+}
+section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 1.7em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1.2em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 1em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	transition-property: color, border;
+	transition-duration: .5s, .5s;
+	transition-timing-function: linear, ease-in;
+ }  
+ section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 2em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 3% 0;
+}
+section.reach-this p {
+	font-family: "Crimson";
+	font-size: 1,7em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+}
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10%  0;
+}
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 30%;
+}
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 0;
+}
+footer .logo-footer {
+	position: absolute;
+	width: 10%;
+	height: 10%x;
+	top: 23%;
+	left: 45%;
+	z-index: 22;
+}
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1.2em;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear; 
+}
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 43%;
+}
+
+}
+ 
+/* xl (>=1200) */
+@media (min-width: 1200px) { 
+	section.header-menu div.menu {
+		padding-left: 35%;
+	}
+	#main-menu-header > ul > li {
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		padding: 0;
+		margin-right: 4%;
+	}
+	section.slider .owl-prev {
+		position: absolute;
+		left: 4%;
+		top: 28%;
+	}
+	section.slider .owl-prev img {
+		width: 50px;
+		height: 75px;
+	}
+	section.slider .owl-next {
+		position: absolute;
+		right: 4%;
+		top: 28%;
+	}
+	section.slider .owl-next img {
+		width: 50px;
+		height: 75px;
+	}
+
+	section.slider .nav-dots {
+	position: absolute;
+	width: 4%;
+	top: 77%;
+	left: 4%;
+	z-index: 98;
+	}
+
+	section.slider .nav-dots .dot {
+	margin-bottom: 15px;
+	padding-bottom: 7px;
+	}
+
+	section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	}
+
+	header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 89%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.book-table {
+	position: absolute;
+	top: 87%;
+	right: 4%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+
+/*section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 100px;
+	width: 100%;
+}
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 2.3em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1.3em;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+section.perfection div.desserts {
+	height: 400px;
+	background: url(../img/desserts.jpg);
+	margin-top: 50px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 35% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.2em;
+	padding: 5% 0 ;
+}
+section.perfection div.smoothies {
+	height: 500px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	box-shadow: 0 5px 100px #b5babf;
+}
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 70% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.2em;
+	padding: 5% 0;
+}
+section.perfection div.breakfast {
+	height: 400px;
+	background: url(../img/Brek.jpg);
+	margin-top: 50px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition-property: background;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 80px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 10px;
+	font-family:"Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	transition-property: color, border-bottom;
+	transition-duration: .5s, .5s;
+	transition-timing-function: ease-in-out, linear;
+}  */
+
+/*section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 10% 0 10%;
+	margin: 120px 0;
+}
+section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 1.7em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1.3em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 1.2em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	transition-property: color, border;
+	transition-duration: .5s, .5s;
+	transition-timing-function: linear, ease-in;
+ }  */
+ /*section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 2.3em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 3% 0;
+}
+section.reach-this p {
+	font-family: "Crimson";
+	font-size: 1.3em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+}
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1.7em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10%  0;
+}
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 33%;
+}
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 0;
+}
+footer .logo-footer {
+	position: absolute;
+	width: 10%;
+	height: 10%x;
+	top: 23%;
+	left: 45%;
+	z-index: 22;
+}*/
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1.2em;
+	transition-property: color;
+	transition-duration: .5s;
+	transition-timing-function: linear; 
+}
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 43%;
+}
+
+}
+
+ }

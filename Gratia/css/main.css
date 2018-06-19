@@ -1,0 +1,652 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	position: relative;
+}
+
+section.header-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+section.header-menu a {
+	text-decoration: none;
+	color: #fff;
+}
+section.header-menu .logo-header {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 40px 0 40px 7%; 
+}
+section.header-menu .logo-header img {
+	padding-right: 3%;
+}
+section.header-menu div.menu {
+	padding-left: 45%;
+}
+
+#main-menu-header > ul {
+	width: 100%;
+	margin: 53px auto;
+}
+#main-menu-header > ul > li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	padding: 0;
+}
+#main-menu-header > ul > li > a {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	padding-right: 40%;
+}
+#main-menu-header > ul > li:last-child > a {
+	padding-right: 0;
+}
+#main-menu-header li ul {
+	position:absolute;
+  list-style:none;
+  text-align:center;
+  top: 25px;
+  font-size: 1em;
+  left:0;
+  margin:0;
+  padding:0;
+  display:none;
+}
+#main-menu-header li ul li {
+	border-bottom:1px solid #d89b64;
+}
+#main-menu-header li ul li:last-child {
+	border-bottom: none;
+}
+#main-menu-header li ul li a {
+	padding: 5px 30px;
+  display:block;
+}
+#main-menu-header li ul li:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+section.slider {
+	width: 100%;
+}
+section.slider .item-slider {
+	width: 100%;
+	height: 800px;
+}
+section.slider .item-slider img {
+	width: 100%;
+	height: 100%;
+}
+section.slider .nav-arrow {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 45%;
+	z-index: 99;
+}
+section.slider .owl-prev {
+	position: absolute;
+	left: 4%;
+	top: 45%;
+}
+section.slider .owl-next {
+	position: absolute;
+	right: 4%;
+	top: 45%;
+}
+section.slider .nav-dots {
+	position: absolute;
+	width: 3%;
+	top: 75%;
+	left: 4%;
+	z-index: 98;
+}
+section.slider .nav-dots .dot {
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+}
+
+section.slider .nav-dots span {
+	color: #fff;
+	font-family:"Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+}
+section.slider .nav-dots .active span{
+	color: #d89b64;
+}
+section.slider .nav-dots .active {
+	border-bottom: 1px solid #d89b64;
+}
+header .small-text {
+	position: absolute;
+	z-index: 33;
+	width: 23%;
+	top: 90%;
+	left: 37.5%;
+	color: #485471;
+	text-align: center;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.book-table {
+	position: absolute;
+	top: 90%;
+	right: 3%;
+	z-index: 33;
+}
+.book-table button {
+	border: 1px solid #453b26;
+	padding: 7% 10%;
+	color: #d89b64;
+	font-family:"Montserrat";
+	font-size: 1em;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	white-space: nowrap;
+}
+
+section.perfection {
+	border-top: 1px solid transparent;
+	padding-top: 100px;
+	width: 100%;
+
+}
+
+section.perfection .section-header {
+	color: #151b28;
+	font-family: "Montserrat";
+	font-size: 3em;
+	font-weight: bold;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.perfection p.perf-text {
+	text-align: center;
+	color: #8a8f9d;
+	font-family: "Crimson";
+	font-size: 1.5em;
+	font-style: italic;
+	padding-bottom: 108px;
+}
+
+section.perfection div.desserts {
+	height: 492px;
+	background: url(../img/desserts.jpg);
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transition-property: background;
+	-o-transition-property: background;
+	transition-property: background;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: ease-in;
+	     -o-transition-timing-function: ease-in;
+	        transition-timing-function: ease-in;
+}
+
+section.perfection div.desserts:hover {
+	background: url(../img/darc-desserts.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+div.desserts h3,
+div.breakfast h3 {
+	text-align: center;
+	color: #d89b64;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding: 36% 0 5% 0;
+	text-transform: uppercase;
+}
+div.desserts p,
+div.breakfast p {
+	text-align: center;
+	color: #fff;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.2em;
+	padding: 5% 0 ;
+}
+div.desserts hr,
+div.breakfast hr {
+	border: none;
+	background-color: #d89b64;
+	text-align: center;
+	height: 1px;
+	width: 7%;
+} 
+
+
+
+section.perfection div.smoothies {
+	height: 700px;
+	background: url(../img/smoothies.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	-webkit-transition-property: -webkit-box-shadow;
+	transition-property: -webkit-box-shadow;
+	-o-transition-property: box-shadow;
+	transition-property: box-shadow;
+	transition-property: box-shadow, -webkit-box-shadow;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: ease-in;
+	     -o-transition-timing-function: ease-in;
+	        transition-timing-function: ease-in;
+}
+section.perfection div.smoothies:hover {
+	-webkit-box-shadow: 0 5px 100px #b5babf;
+	        box-shadow: 0 5px 100px #b5babf;
+}
+
+
+section.perfection div.smoothies h3 {
+	text-align: center;
+	color: #151b29;
+	font-family: "Montserrat";
+	font-size: 2em;
+	font-weight: bold;
+	padding: 95% 0 5% 0;
+	text-transform: uppercase;
+}
+section.perfection div.smoothies p {
+	text-align: center;
+	color: #8b909d;
+	font-family: "Crimson";
+	font-style: italic;
+	font-size: 1.2em;
+	padding: 20px 0 120px;
+}
+section.perfection div.smoothies hr {
+	border: none;
+	background-color: #fff;
+	text-align: center;
+	height: 1px;
+	width: 7%;
+}
+
+
+section.perfection div.breakfast {
+	height: 492px;
+	background: url(../img/Brek.jpg);
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transition-property: background;
+	-o-transition-property: background;
+	transition-property: background;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: ease-in;
+	     -o-transition-timing-function: ease-in;
+	        transition-timing-function: ease-in;
+}
+section.perfection div.breakfast:hover {
+	background: url(../img/darc-breakfest.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.perfection div.check-offers {
+	text-align: center;
+	margin-top: 90px;
+}
+
+section.perfection #check-offers-text {
+	color: #d89b64;
+	text-decoration: none;
+	border-bottom: 1px solid #d89b64;
+	padding-bottom: 12px;
+	font-family:"Montserrat";
+	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-transition-property: color, border-bottom;
+	-o-transition-property: color, border-bottom;
+	transition-property: color, border-bottom;
+	-webkit-transition-duration: .5s, .5s;
+	     -o-transition-duration: .5s, .5s;
+	        transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: ease-in-out, linear;
+	     -o-transition-timing-function: ease-in-out, linear;
+	        transition-timing-function: ease-in-out, linear;
+}
+section.perfection #check-offers-text:hover {
+	color: #b4865c;
+	border-bottom: 1px solid #b4865c;
+}
+
+section.details {
+	width: 100%;
+	background: url(../img/details-2.jpg);
+	padding: 10% 0 10%;
+	margin: 86px 0;
+}
+section.details #det-marg {
+	margin-right: 0;
+} 
+section.details .details-block {
+	background: #ffffff;
+	padding: 2%;
+}
+
+ section.details div.decor-border {
+	border: 1px solid #e2e3e6;
+	width: 100%;
+}
+ section.details h3.section-header {
+ 	font-family: "Montserrat";
+	font-size: 3em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 6% 0 3%;
+ }
+ section.details p {
+ 	font-family: "Crimson";
+	font-size: 1,5em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 7%;
+ }
+ section.details button.preparation {
+ 	display: block;
+ 	text-align: center;
+	margin: 0 auto 7%;
+	color: #d69963;
+	font-family: "Montserrat";
+	font-size: 1em;
+	border: 1px solid #d69963;
+	padding: 2%;
+	outline: none;
+	white-space: nowrap;
+	background: transparent;
+	-webkit-transition-property: color, border;
+	-o-transition-property: color, border;
+	transition-property: color, border;
+	-webkit-transition-duration: .5s, .5s;
+	     -o-transition-duration: .5s, .5s;
+	        transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: linear, ease-in;
+	     -o-transition-timing-function: linear, ease-in;
+	        transition-timing-function: linear, ease-in;
+ }
+ section.details button.preparation:hover {
+ 	color: #b4865c;
+	border: 1px solid #b4865c;
+ }
+
+ section.reach-this h2 {
+	font-family: "Montserrat";
+	font-size: 3em;
+	color: #151b28;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10% 0 3%;
+}
+
+section.reach-this p {
+	font-family: "Crimson";
+	font-size: 1,5em;
+	color: #8a8f9d;
+	text-align: center;
+	margin-bottom: 13%;
+}
+
+section.reach-this h4 {
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	color: #d89b64;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 12%  0;
+}
+
+section.reach-this .locations,
+section.reach-this .beggining {
+	background: #f8f8f8;
+	margin: 2.5% 0 2.5%;
+}
+
+
+section.reach-this .products {
+	background: #121723;
+}
+
+section.reach-this .products h4 {
+	padding-top: 30%;
+}
+
+section.reach-this .products p {
+	padding-bottom: 18%;
+}
+
+section.reach-this .locations h4,
+section.reach-this .beggining h4 {
+	margin-top: 30%;
+}
+
+footer {
+	position: relative;
+	padding-top: 10%;
+}
+
+footer .logo-footer {
+	position: absolute;
+	top: 27%;
+	left: 45%;
+	z-index: 22;
+}
+div.decor-line {
+ 	width: 100%;
+ 	border-bottom: 1px solid #d89b64;
+ 	margin: 4% 0 8%;
+ }
+footer h5 {
+	color: #161b29;
+	font-size: 1em;
+	font-family:"Montserrat";
+	text-align: center;
+	padding-bottom: 9%;
+}
+
+footer div.decor-line-footer {
+	width: 20%;
+	border-bottom: 1px solid #e7e7e7;
+	margin: 0 auto 3%;
+}
+
+footer div.social {
+	margin: 0 auto 5%;
+	padding-left: 44%;
+
+}
+footer div.social span {
+	padding-right: 3%;
+	color: #dfdede;
+	font-size: 1.5em;
+	-webkit-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear; 
+}
+footer div.social span:hover {
+	color: #cdcccc;
+}
+
+
+aside {
+	position: absolute;
+	z-index: 9999;
+	top: 50px;
+	left: -35%;
+	width: 35%;
+	height: 500px;
+	-webkit-transition-property: left;
+	-o-transition-property: left;
+	transition-property: left;
+	-webkit-transition-duration: .7s;
+	     -o-transition-duration: .7s;
+	        transition-duration: .7s;
+	-webkit-transition-timing-function: ease-in-out;
+	     -o-transition-timing-function: ease-in-out;
+	        transition-timing-function: ease-in-out; 
+}
+.left-pos {
+	left: 0;
+}
+aside div.sidebar {
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 30px 7% 30px 3%;
+}
+#main-menu-sidebar {
+	width: 100%;
+}
+#main-menu-sidebar > ul > li {
+	list-style: none;
+	display: block;
+	padding: 0;
+}
+#main-menu-sidebar > ul > li > a {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear;
+}
+#main-menu-sidebar > ul > li > a:hover {
+	color: #d89b64;
+}
+
+#main-menu-sidebar li ul {
+  list-style:none;
+  text-align:center;
+  font-size: 1em;
+  margin:0;
+  padding:0;
+}
+#main-menu-sidebar li ul li {
+	border-bottom:1px solid #d89b64;
+	-webkit-transition-property: background-color;
+	-o-transition-property: background-color;
+	transition-property: background-color;
+	-webkit-transition-duration: .5s;
+	     -o-transition-duration: .5s;
+	        transition-duration: .5s;
+	-webkit-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear;
+}
+#main-menu-sidebar li ul li:hover {
+	background-color: #d89b64;
+}
+
+#main-menu-sidebar li ul li:last-child {
+	border-bottom: none;
+}
+#main-menu-sidebar li ul li a {
+	padding: 5px 30px;
+  display:block;
+  color: #fff;
+	text-decoration: none;
+}
+
+div.burg-menu {
+	display: none;
+}
+.toggle-mnu {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-top: 14px;
+}
+.toggle-mnu span:after, .toggle-mnu span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.toggle-mnu span:after {
+  top: 18px;
+}
+.toggle-mnu span {
+  position: relative;
+  display: block;
+}
+.toggle-mnu span, .toggle-mnu span:after, .toggle-mnu span:before {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 2px;
+}
+.toggle-mnu.on span {
+  background-color: transparent;
+}
+.toggle-mnu.on span:before {
+  -webkit-transform: rotate(45deg) translate(-1px, 0px);
+      -ms-transform: rotate(45deg) translate(-1px, 0px);
+          transform: rotate(45deg) translate(-1px, 0px);
+}
+.toggle-mnu.on span:after {
+  -webkit-transform: rotate(-45deg) translate(6px, -7px);
+      -ms-transform: rotate(-45deg) translate(6px, -7px);
+          transform: rotate(-45deg) translate(6px, -7px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
