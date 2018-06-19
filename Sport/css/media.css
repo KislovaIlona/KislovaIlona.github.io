@@ -1,0 +1,2013 @@
+
+@media (min-width: 2560px) {
+	header h2 {
+	margin: 12% 0 0 50%;
+	font-size: 6em;
+	}
+	header h1 {
+	font-size: 14em;
+	color: #fff;
+	margin: -30px 23% 0 0; 
+	padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 27%;
+	margin-top: 2%;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 100%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 2em;
+	padding: 3% 0;
+	margin: 0 0 30px 10%;
+	}
+	header input[type="submit"] {
+	padding: 7% 9%;
+	font-size: 2.2em;
+	margin: 9% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 5px;
+	}
+	header p.text-dovn {
+	font-size: 1.5em;
+	margin-right: 24%;
+	}
+	section.cool h2 {
+	font-size: 5em;
+	letter-spacing: 4px;
+	margin: 11% 0 0 0;
+	}
+	section.cool ul.decor-dots {
+		margin: 170% 0 0 0;
+	}
+	section.cool p.text-dovn {
+		font-size: 1.5em;
+		margin-right: 24%;
+	}
+	section.cool h2.active-cool {
+		margin-top: -1%;
+		font-size: 8em;
+		padding: 0;
+		letter-spacing: 3px;
+	}
+	section.cool .text-cool {
+		font-size: 1.7em;
+		letter-spacing: 4px;
+		margin: 1% 0 0 2%;
+	}
+	section.cool button.cool-button-play {
+		margin: 13.5% 0 0 17%;
+	}
+	section.free-bunner ul.decor-dots {
+		margin: 220% 0 0 0;
+	}
+	section.free-bunner p.text-dovn {
+		font-size: 1.5em;
+		margin-right: 24%;
+	}
+	section.free-bunner img.simulators {
+		top: 72%;
+		left: 33%;
+		z-index: 1;
+	}
+	section.free-bunner h3.sim-text {
+		top: 87%;
+		left: 27%;
+		font-size: 1.2em;
+		letter-spacing: 3px;
+		line-height: 0;
+	}
+	section.free-bunner img.main-bunner {
+		top: 18%;
+		left: 43%;
+	}
+	section.free-bunner img.trenera {
+		top: 38%;
+		left: 22%;
+	}
+	section.free-bunner h3.tren-text {
+		top: 50%;
+		left: 37%;
+		font-size: 1.2em;
+		letter-spacing: 3px;
+		line-height: 0;
+	}
+	section.free-bunner input[name="name"],
+	section.free-bunner input[name="email"] {
+		min-width: 65%;
+		font-size: 2em;
+	}
+	section.free-bunner input[type="submit"] {
+		padding: 4% 7%;
+		font-size: 2.2em;
+		margin: 9% 0 0 10%;
+		border-radius: 100px;
+		letter-spacing: 2px;
+	}
+	section.sport-people {
+		margin-top: 9%;
+		padding-bottom: 5%;
+	}
+	section.sport-people  ul.decor-dots {
+		margin: 140% 0 0 0;
+	}
+	section.sport-people  p.text-dovn {
+		font-size: 1.5em;
+		margin-right: 24%;
+	}
+	section.sport-people p.sport-header {
+		font-size: 4em;
+		letter-spacing: 4px;
+		margin: 10% 0 0 0;
+	}
+	section.sport-people h3 {
+		font-size: 6.5em;
+		line-height: 1em;
+		letter-spacing: 7px;
+		margin-top: -25px;
+	}
+	section.sport-people .slider h5 {
+		font-size: 4em;
+		margin: 23% 0 0 18%;
+	}
+	section.sport-people .slider p.period-time {
+		font-size: 1.7em ;
+		margin: 0 0 0 18%;
+		letter-spacing: 3px;
+	}
+	section.sport-people .slider p.people-text {
+		font-size: 1.6em;
+		margin: 3% 0 0 18%;
+		width: 23%;
+	}
+	section.sport-people .second-slide {
+		top: 50.3%;
+		right: 27%;
+	}
+	section.sport-people .nav-arrow {
+		width: 27%;
+		top: 105%;
+		left: 17%;
+		z-index: 15;
+		font-size: 1.2em;
+		letter-spacing: 2px; 
+	}
+	section.sport-people .nav-dots {
+		width: 18%;
+		top: 104.5%;
+		left: 26%;
+	}
+	section.sport-people .nav-dots .dot {
+		width: 14px;
+		height: 14px;
+		background: #080909;
+		border-radius: 50%;
+		margin: 0 5% 0 0;
+	}
+	footer div.map ul.decor-dots {
+		margin: 170% 0 0 0;
+	}
+	footer div.map  p.text-dovn {
+		font-size: 1.5em;
+		margin-right: 24%;
+	}
+	footer div.map div.addresses img.logo-footer {
+		top: 55%;
+		left: 13%;
+	}
+	footer div.map  p.fitness-room {
+		font-size: 1.4em;
+		letter-spacing: 3px;
+		margin: 119% 0 7% 24%;
+	}
+	footer div.map  p.lviv {
+		font-size: 1.4em;
+		letter-spacing: 3px;
+		margin: 0 0 4% 24%;
+	}
+	footer div.map  p.tel {
+		font-size: 1.4em;
+		letter-spacing: 3px;
+		margin: 0 0 0 24%;
+	}
+	footer div.map p.we-here {
+		font-size: 5em;
+		margin: 60% 0 0 10%;
+		letter-spacing: 3px;
+		line-height: 0.8em;
+	}
+	footer div.map h2.come {
+		margin: 0 0 0 10%;
+		font-size: 9em;
+		letter-spacing: 3px;
+	}
+	footer div.map input[name="name"],
+	footer div.map input[name="email"] {
+		min-width: 62%;
+		font-size: 1.5em;
+		padding: 3% 0;
+		margin: 0 0 10px 26%;
+	}
+	footer div.map input[type="submit"] {
+		padding: 5% 8%;
+		font-size: 2em;
+		margin: 8% 0 0 16%;
+		border-radius: 100px;
+		letter-spacing: 2px;
+	}
+	footer div.map p.official-site {
+		margin: 10% 0 0 30%;
+	}
+	footer div.map p.official-site a{
+		font-size: 1.5em;
+		letter-spacing: 2px;
+	}
+	footer div.map div.icons {
+		margin: 8% 0 8% 44%;
+	}
+	footer div.map div.icons span {
+		margin-right: 20px;
+		font-size: 1.5em;
+	}
+	footer .pin .town {
+		font-size: 1.5em;
+		top: 0;
+		right: 50%;
+	}
+	footer .pin div.circle-lviv {
+		border-radius: 50%;
+		border: 6px solid #fff;
+		width: 35px;
+		height: 35px;
+		-webkit-box-shadow: 0 0 30px 0 #228cfd;
+		        box-shadow: 0 0 30px 0 #228cfd;
+		position: absolute;
+		top: 39px;
+		left: -15%;
+	}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 6px solid #2782fd;
+	width: 35px;
+	height: 35px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 37px;
+	left: -7%;
+	}
+}
+
+@media (max-width: 1440px) {
+	 header h2 {
+		margin: 11% 0 0 50%;
+		font-size: 3.5em;
+	}
+	header h1 {
+		font-size: 9em;
+		color: #fff;
+		margin: -30px 19% 0 0; 
+		padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 20%;
+	margin-top: 2%;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 60%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 1em;
+	padding: 3% 0;
+	margin: 0 0 30px 10%;
+	}
+	header input[type="submit"] {
+	padding: 6% 8%;
+	font-size: 1.5em;
+	margin: 2% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 5px;
+	}
+	header p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+	}
+
+	section.cool h2 {
+	font-size: 3.4em;
+	letter-spacing: 4px;
+	margin: 9% 0 0 0;
+}
+section.cool ul.decor-dots {
+	margin: 160% 0 0 0;
+}
+section.cool p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+}
+section.cool h2.active-cool {
+	margin-top: -1%;
+	font-size: 5.4em;
+	padding: 0;
+	letter-spacing: 3px;
+}
+section.cool .text-cool {
+	font-size: 1em;
+	letter-spacing: 4px;
+	margin: 1% 0 0 2%;
+}
+section.cool button.cool-button-play {
+	margin: 6% 0 0 13%;
+}
+
+section.free-bunner ul.decor-dots {
+	margin: 220% 0 0 0;
+}
+section.free-bunner p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+}
+section.free-bunner img.simulators {
+	top: 58%;
+	left: 19%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	top: 85%;
+	left: 26%;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+	line-height: 0;
+}
+section.free-bunner img.main-bunner {
+	top: 10%;
+	left: 35%;
+}
+section.free-bunner img.trenera {
+	top: 28%;
+	left: 22%;
+}
+section.free-bunner h3.tren-text {
+	top: 47%;
+	left: 37%;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+	line-height: 0;
+}
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	min-width: 65%;
+	font-size: 1em;
+}
+section.free-bunner input[type="submit"] {
+	padding: 5% 7%;
+	font-size: 2em;
+	margin: 9% 0 9% 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+section.sport-people {
+	margin-top: 2%;
+	padding-bottom: 5%;
+}
+section.sport-people  ul.decor-dots {
+	margin: 147% 0 0 0;
+}
+section.sport-people  p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+}
+section.sport-people p.sport-header {
+	font-size: 3.8em;
+	letter-spacing: 4px;
+	margin: 6% 0 0 0;
+}
+section.sport-people h3 {
+	font-size: 6em;
+	line-height: 0.9em;
+	letter-spacing: 7px;
+	margin-top: -25px;
+}
+section.sport-people .slider h5 {
+	font-size: 3em;
+	margin: 10% 0 0 18%;
+}
+section.sport-people .slider p.period-time {
+	font-size: 1em ;
+	margin: 0 0 0 18%;
+	letter-spacing: 3px;
+}
+section.sport-people .slider p.people-text {
+	font-size: 1em;
+	margin: 3% 0 0 18%;
+	width: 23%;
+}
+section.sport-people .second-slide {
+	top: 5%;
+	right: 18%;
+}
+section.sport-people .nav-arrow {
+	width: 27%;
+	top: 105%;
+	left: 17%;
+	z-index: 15;
+	font-size: 1em;
+	letter-spacing: 2px; 
+}
+section.sport-people .nav-dots {
+	width: 18%;
+	top: 104.5%;
+	left: 26%;
+}
+section.sport-people .nav-dots .dot {
+	width: 7px;
+	height: 7px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+footer div.map ul.decor-dots {
+	margin: 181% 0 0 0;
+}
+footer div.map  p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+}
+footer div.map div.addresses img.logo-footer {
+	top: 45%;
+	left: 3%;
+}
+footer div.map  p.fitness-room {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 119% 0 7% 24%;
+}
+footer div.map  p.lviv {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 4% 24%;
+}
+footer div.map  p.tel {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 0 24%;
+}
+footer div.map p.we-here {
+	font-size: 4em;
+	margin: 58% 0 0 10%;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 10%;
+	font-size: 7em;
+	letter-spacing: 3px;
+}
+footer div.map form[name="fitness_free"] {
+	margin-top: 5%;
+}
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	min-width: 92%;
+	font-size: 1em;
+	padding: 3% 0;
+	margin: 0 0 10px 26%;
+}
+footer div.map input[type="submit"] {
+	padding: 5% 8%;
+	font-size: 1.5em;
+	margin: 8% 0 0 16%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+footer div.map p.official-site {
+	margin: 6% 0 0 34%;
+}
+footer div.map p.official-site a{
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+footer div.map div.icons {
+	margin: 6% 0 9% 50%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+	font-size:;
+}
+footer .pin .town {
+	font-size: 0.9em;
+	top: 0;
+	right: 50%;
+}
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 22px;
+	height: 22px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 22px;
+	height: 22px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+
+}
+
+@media (max-width: 1199px) {
+	body {
+		background-size: 100% auto;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	header .logo-header {
+	float: right;
+	margin: 17% 0 0 0;
+	}
+	header .logo-text {
+		font-size: 0.7em;
+		margin: 22% 0 0 6%; 
+		letter-spacing: 3px;
+	}
+	header .header-tel {
+		font-size: 1.5em;
+		margin: 3% 18% 0 0;
+		padding-bottom: 0;
+		letter-spacing: 1px;
+		line-height: 0;
+	}
+	header .header-tel::after {
+		content: url(../img/allo.png);
+	}
+	header .everyday {
+		font-size: 0.75em;
+		margin: 2px 0 0 60%;
+	}
+	header .everyday .upper-num {
+		font-size: 0.3em;
+		vertical-align: top;
+	}
+
+  header h2 {
+		margin: 8% 0 0 50%;
+		font-size: 3.3em;
+	}
+	header h1 {
+		font-size: 8em;
+		margin: -30px 16% 0 0; 
+		padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 19%;
+	margin-top: 2%;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 60%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 0.8em;
+	padding: 3% 0;
+	margin: 0 0 30px 10%;
+	}
+	header input[type="submit"] {
+	padding: 6% 8%;
+	font-size: 1.3em;
+	margin: 2% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	}
+	header p.text-dovn {
+	font-size: 1em;
+	margin-right: 22%;
+	}
+
+  section.cool h2 {
+		font-size: 3em;
+		letter-spacing: 4px;
+		margin: 9% 0 0 0;
+	}
+section.cool ul.decor-dots {
+	margin: 160% 0 0 0;
+}
+section.cool p.text-dovn {
+	font-size: 1em;
+	margin-right: 22%;
+}
+section.cool h2.active-cool {
+	margin-top: -1%;
+	font-size: 5em;
+	padding: 0;
+	letter-spacing: 3px;
+}
+section.cool .text-cool {
+	font-size: 0.8em;
+	letter-spacing: 4px;
+	margin: 1% 0 0 2%;
+}
+section.cool button.cool-button-play {
+	margin: 3% 0 0 11%;
+}
+
+section.free-bunner ul.decor-dots {
+	margin: 220% 0 0 0;
+}
+section.free-bunner p.text-dovn {
+	font-size: 1em;
+	margin-right: 24%;
+}
+section.free-bunner img.simulators {
+	width: 61%;
+	height: auto;
+	top: 56%;
+	left: 19%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	top: 85%;
+	left: 26%;
+	font-size: 1em;
+	letter-spacing: 3px;
+	line-height: 0;
+}
+section.free-bunner h3.sim-text::after {
+	display: inline-block;
+	margin: 0 0 5px 27px;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner h3.tren-text::after {
+	display: inline-block;
+	margin: 0 0 0 60px;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner img.main-bunner {
+	width: 30%;
+	height: auto;
+	top: 10%;
+	left: 35%;
+}
+section.free-bunner img.trenera {
+	width: 41%;
+	height: auto;
+	top: 28%;
+	left: 22%;
+}
+section.free-bunner h3.tren-text {
+	top: 47%;
+	left: 37%;
+	font-size: 1em;
+	letter-spacing: 3px;
+	line-height: 0.5em;
+}
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	min-width: 65%;
+	font-size: 0.8em;
+}
+section.free-bunner input[type="submit"] {
+	padding: 5% 7%;
+	font-size: 1.3em;
+	margin: 9% 0 9% 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+section.sport-people {
+	margin-top: 1%;
+	padding-bottom: 5%;
+}
+section.sport-people  ul.decor-dots {
+	margin: 147% 0 0 0;
+}
+section.sport-people  p.text-dovn {
+	font-size: 1em;
+	margin-right: 22%;
+}
+section.sport-people p.sport-header {
+	font-size: 2.8em;
+	letter-spacing: 2px;
+	margin: 6% 0 0 0;
+}
+section.sport-people h3 {
+	font-size: 5em;
+	line-height: 0.9em;
+	letter-spacing: 7px;
+	margin-top: -25px;
+}
+section.sport-people .slider h5 {
+	font-size: 2.5em;
+	margin: 10% 0 0 18%;
+}
+section.sport-people .slider p.period-time {
+	font-size: 0.8em ;
+	margin: 0 0 0 18%;
+	letter-spacing: 3px;
+}
+section.sport-people .slider p.people-text {
+	font-size: 0.8em;
+	margin: 3% 0 0 18%;
+	width: 23%;
+}
+section.sport-people .second-slide {
+	top: 8%;
+	right: 18%;
+}
+section.sport-people .second-slide img {
+	width: 400px;
+	height: auto;
+}
+section.sport-people .nav-arrow {
+	width: 27%;
+	top: 105%;
+	left: 17%;
+	z-index: 15;
+	font-size: 0.8em;
+	letter-spacing: 2px; 
+}
+section.sport-people .nav-dots {
+	width: 18%;
+	top: 104.5%;
+	left: 26%;
+}
+section.sport-people .nav-dots .dot {
+	width: 5px;
+	height: 5px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+footer div.train button.train-button {
+	font-size: 1em;
+	padding: 3% 5%;
+	margin: 0 0 0 21%;
+	border-radius: 62px;
+	-webkit-box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	        box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	letter-spacing: 2px;
+}
+footer div.train p.train-text {
+	font-size: 1em;
+	margin: 3% 0 0 23%;
+	letter-spacing: 2px;
+}
+footer div.map ul.decor-dots {
+	margin: 181% 0 0 0;
+}
+footer div.map  p.text-dovn {
+	font-size: 1em;
+	margin-right: 22%;
+}
+footer div.map div.addresses img.logo-footer {
+	top: 43%;
+	left: -1%;
+}
+footer div.map  p.fitness-room {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 119% 0 7% 24%;
+}
+footer div.map  p.lviv {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 4% 24%;
+}
+footer div.map  p.tel {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 0 24%;
+}
+footer div.map p.we-here {
+	font-size: 3em;
+	margin: 58% 0 0 10%;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 10%;
+	font-size: 5em;
+	letter-spacing: 3px;
+}
+footer div.map form[name="fitness_free"] {
+	margin-top: 5%;
+}
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	min-width: 92%;
+	font-size: 0.8em;
+	padding: 3% 0;
+	margin: 0 0 10px 26%;
+}
+footer div.map input[type="submit"] {
+	padding: 5% 8%;
+	font-size: 1.2em;
+	margin: 8% 0 0 16%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+footer div.map p.official-site {
+	margin: 6% 0 0 34%;
+}
+footer div.map p.official-site a{
+	font-size: 0.8em;
+	letter-spacing: 2px;
+}
+footer div.map div.icons {
+	margin: 6% 0 9% 50%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+footer .pin .town {
+	font-size: 0.9em;
+	top: 0;
+	right: 50%;
+}
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 19px;
+	height: 19px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 19px;
+	height: 19px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 16%;
+}
+footer .pin.lviv-pin {
+	top: 46%;
+	left: 23%;
+}
+footer .pin.kiev-pin {
+	top: 43%;
+	left: 44%;
+}
+footer .pin.odessa-pin {
+	top: 67%;
+	left: 47%;
+}
+
+}
+ 
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+ body {
+		background-size: 100% auto;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	header .logo-header {
+	float: right;
+	margin: 20% 0 0 0;
+	width: 47%;
+	height: auto;
+	}
+	header .logo-text {
+		font-size: 0.7em;
+		margin: 22% 0 0 6%; 
+		letter-spacing: 3px;
+	}
+	header .header-tel {
+		font-size: 1.5em;
+		margin: 2% 18% 0 0;
+		padding-bottom: 0;
+		letter-spacing: 1px;
+		line-height: 0;
+	}
+	header .header-tel::after {
+		content: url(../img/allo.png);
+	}
+	header .everyday {
+		font-size: 0.75em;
+		margin: 2px 0 0 55%;
+	}
+	header .everyday .upper-num {
+		font-size: 0.3em;
+		vertical-align: top;
+	}
+
+  header h2 {
+		margin: 8% 0 0 50%;
+		font-size: 2.6em;
+		letter-spacing: 2px;
+	}
+	header h1 {
+		font-size: 6em;
+		margin: -21px 19% 0 0; 
+		padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 20%;
+	margin-top: 2%;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 60%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 0.6em;
+	padding: 3% 0;
+	margin: 0 0 20px 10%;
+	}
+	header input[type="submit"] {
+	padding: 6% 8%;
+	font-size: 1.1em;
+	margin: 2% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	}
+	header p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 20%;
+	}
+
+  section.cool h2 {
+		font-size: 2.5em;
+		letter-spacing: 3px;
+		margin: 9% 0 0 0;
+	}
+	section.cool ul.decor-dots {
+		margin: 182% 0 0 0;
+	}
+	section.cool p.text-dovn {
+		font-size: 0.8em;
+		margin-right: 22%;
+	}
+	section.cool h2.active-cool {
+		margin-top: -1%;
+		margin-left: -0.5%;
+		font-size: 4.5em;
+		padding: 0;
+		letter-spacing: 3px;
+	}
+section.cool .text-cool {
+	font-size: 0.7em;
+	letter-spacing: 2px;
+	margin: 1% 0 0 2%;
+}
+section.cool button.cool-button-play {
+	margin: 1.5% 0 0 7%;
+}
+
+section.free-bunner ul.decor-dots {
+	margin: 197% 0 0 0;
+}
+section.free-bunner p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 22%;
+}
+section.free-bunner img.simulators {
+	width: 61%;
+	height: auto;
+	top: 54%;
+	left: 20%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	top: 81%;
+	left: 26%;
+	font-size: 0.8em;
+	letter-spacing: 3px;
+	line-height: 0;
+}
+section.free-bunner h3.sim-text::after {
+	display: inline-block;
+	margin: 0 0 5px 27px;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner h3.tren-text::after {
+	display: inline-block;
+	margin: 0 0 0 60px;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner img.main-bunner {
+	width: 30%;
+	height: auto;
+	top: 10%;
+	left: 35%;
+}
+section.free-bunner img.trenera {
+	width: 41%;
+	height: auto;
+	top: 28%;
+	left: 22%;
+}
+section.free-bunner h3.tren-text {
+	top: 47%;
+	left: 37%;
+	font-size: 0.8em;
+	letter-spacing: 3px;
+	line-height: 0.5em;
+}
+section.free-bunner form[name="free_week"] {
+	margin-right: 20%;
+	margin-top: 92%;
+}
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	min-width: 65%;
+	font-size: 0.7em;
+	padding: 3% 0;
+	margin: 0 0 9px 10%;
+}
+section.free-bunner input[type="submit"] {
+	padding: 5% 7%;
+	font-size: 1em;
+	margin: 7% 0 9% 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+section.sport-people {
+	margin-top: 1%;
+	padding-bottom: 5%;
+}
+section.sport-people  ul.decor-dots {
+	margin: 145% 0 0 0;
+}
+section.sport-people  p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 21%;
+}
+section.sport-people p.sport-header {
+	font-size: 2.4em;
+	letter-spacing: 2px;
+	margin: 6% 0 0 0;
+}
+section.sport-people h3 {
+	font-size: 4.1em;
+	line-height: 0.9em;
+	letter-spacing: 3px;
+	margin-top: -25px;
+}
+section.sport-people .slider h5 {
+	font-size: 2.2em;
+	margin: 10% 0 0 18%;
+}
+section.sport-people .slider p.period-time {
+	font-size: 0.7em ;
+	margin: 0 0 0 18%;
+	letter-spacing: 3px;
+}
+section.sport-people .slider p.people-text {
+	font-size: 0.7em;
+	margin: 3% 0 0 18%;
+	width: 23%;
+}
+section.sport-people .second-slide {
+	top: 5%;
+	right: 0;
+}
+section.sport-people .second-slide img {
+	width: 68%;
+	height: auto;
+}
+section.sport-people .nav-arrow {
+	width: 27%;
+	top: 103%;
+	left: 17%;
+	z-index: 15;
+	font-size: 0.7em;
+	letter-spacing: 2px; 
+}
+section.sport-people .nav-dots {
+	width: 14%;
+	top: 102%;
+	left: 26%;
+}
+section.sport-people .nav-dots .dot {
+	width: 5px;
+	height: 5px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+footer div.train button.train-button {
+	font-size: 0.8em;
+	padding: 3% 5%;
+	margin: 0 0 0 21%;
+	border-radius: 62px;
+	-webkit-box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	        box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	letter-spacing: 2px;
+}
+footer div.train p.train-text {
+	font-size: 0.8em;
+	margin: 3% 0 0 23%;
+	letter-spacing: 2px;
+}
+footer div.map ul.decor-dots {
+	margin: 181% 0 0 0;
+}
+footer div.map  p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 21%;
+}
+footer div.map div.addresses img.logo-footer {
+	top: 38%;
+	left: -6%;
+}
+footer div.map  p.fitness-room {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 119% 0 7% 24%;
+}
+footer div.map  p.lviv {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 4% 24%;
+}
+footer div.map  p.tel {
+	font-size: 0.7em;
+	letter-spacing: 3px;
+	margin: 0 0 0 24%;
+}
+footer div.map p.we-here {
+	font-size: 2.7em;
+	margin: 58% 0 0 10%;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 10%;
+	font-size: 4.3em;
+	letter-spacing: 2px;
+}
+footer div.map form[name="fitness_free"] {
+	margin-top: 5%;
+}
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	min-width: 92%;
+	font-size: 0.7em;
+	padding: 3% 0;
+	margin: 0 0 10px 26%;
+}
+footer div.map input[type="submit"] {
+	padding: 5% 8%;
+	font-size: 1em;
+	margin: 8% 0 0 16%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+footer div.map p.official-site {
+	margin: 6% 0 0 34%;
+}
+footer div.map p.official-site a{
+	font-size: 0.7em;
+	letter-spacing: 2px;
+	white-space: nowrap;
+}
+footer div.map div.icons {
+	margin: 6% 0 9% 50%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+footer .pin .town {
+	font-size: 0.8em;
+	top: 0;
+	right: 50%;
+}
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 16%;
+}
+footer .pin.lviv-pin {
+	top: 46%;
+	left: 23%;
+}
+footer .pin.kiev-pin {
+	top: 42%;
+	left: 44%;
+}
+footer .pin.odessa-pin {
+	top: 66%;
+	left: 45%;
+}
+
+}
+ 
+/* sm-размер (<=768px) */
+@media (max-width: 767px) { 
+	body {
+		padding: 0;
+		margin: 0;
+		background-size: 100% auto;
+		width: 100%;
+	}
+	.hidden {
+		display: none;
+	}
+	header .logo-header {
+	float: right;
+	margin: 24% 0 0 0;
+	width: 47%;
+	height: auto;
+	}
+	header .logo-text {
+		font-size: 0.7em;
+		margin: 22% 0 0 6%; 
+		letter-spacing: 0;
+	}
+	header .header-tel {
+		font-size: 1em;
+		margin: 1% 18% 0 0;
+		padding-bottom: 0;
+		letter-spacing: 1px;
+		line-height: 0;
+	}
+	header .everyday {
+		font-size: 0.75em;
+		margin: 2px 0 0 47%;
+	}
+
+  header h2 {
+		margin: 7% 0 0 59%;
+		font-size: 2em;
+		letter-spacing: 2px;
+	}
+	header h1 {
+		font-size: 5em;
+		margin: -2.5% 14% 0 0; 
+		padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 8%;
+	margin-top: 0;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 60%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 0.6em;
+	padding: 3% 0;
+	margin: 0 0 20px 10%;
+	}
+	header input[type="submit"] {
+	padding: 6% 8%;
+	font-size: 1em;
+	margin: 2% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	}
+	
+
+  section.cool h2 {
+		font-size: 2em;
+		letter-spacing: 3px;
+		margin: 0 0 0 14%;
+	}
+	section.cool h2.active-cool {
+		margin-top: -1%;
+		margin-left: 13.5%;
+		font-size: 3.5em;
+		padding: 0;
+		letter-spacing: 3px;
+	}
+	section.cool .text-cool {
+		font-size: 0.6em;
+		letter-spacing: 2px;
+		margin: 1% 0 0 16%;
+	}
+	section.cool button.cool-button-play {
+		margin: 9% 0 0 18%;
+	}
+	section.cool button.cool-button-play img {
+		width: 47%;
+		height: auto;
+	}
+
+section.free-bunner ul.decor-dots {
+	margin: 197% 0 0 0;
+}
+section.free-bunner p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 22%;
+}
+section.free-bunner img.simulators {
+	width: 42%;
+	height: auto;
+	top: 61%;
+	left: 46%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	top: 85%;
+	left: 52%;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	line-height: 0;
+}
+section.free-bunner h3.sim-text::after {
+	display: inline-block;
+	margin: 0 0 5px 13px;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner h3.tren-text::after {
+	display: inline-block;
+	margin: 0 0 0 34px;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner img.main-bunner {
+	width: 27%;
+	height: auto;
+	top: 14%;
+	left: 42%;
+}
+section.free-bunner img.trenera {
+	width: 38%;
+	height: auto;
+	top: 32%;
+	left: 32%;
+}
+section.free-bunner h3.tren-text {
+	top: 50%;
+	left: 47%;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	line-height: 0.5em;
+}
+section.free-bunner form[name="free_week"] {
+	margin-right: 20%;
+	margin-top: 97%;
+}
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	min-width: 65%;
+	font-size: 0.5em;
+	padding: 3% 0;
+	margin: 0 0 9px 10%;
+}
+section.free-bunner input[type="submit"] {
+	padding: 5% 7%;
+	font-size: 0.7em;
+	margin: 7% 0 15% 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+section.sport-people {
+	width: 100%;
+	background: url(../img/slider-bg.jpg) no-repeat;
+	background-size: 100% auto;
+	margin-top: 1%;
+	padding-bottom: 5%;
+}
+
+section.sport-people p.sport-header {
+	font-size: 2em;
+	letter-spacing: 2px;
+	margin: 6% 0 0 16%;
+}
+section.sport-people h3 {
+	font-size: 3em;
+	line-height: 0.9em;
+	letter-spacing: 3px;
+	margin-top: -25px;
+	margin-left: 16%;
+}
+section.sport-people .slider h5 {
+	font-size: 1.8em;
+	margin: 5.5% 0 0 32%;
+}
+section.sport-people .slider p.period-time {
+	font-size: 0.6em ;
+	margin: 0 0 0 32%;
+	letter-spacing: 2px;
+}
+section.sport-people .slider p.people-text {
+	font-size: 0.7em;
+	margin: 3% 0 0 32%;
+	width: 23%;
+}
+section.sport-people .second-slide {
+	top: 4%;
+	right: -16%;
+}
+section.sport-people .second-slide img {
+	width: 57%;
+	height: auto;
+}
+section.sport-people .nav-arrow {
+	width: 27%;
+	top: 103%;
+	left: 30%;
+	z-index: 15;
+	font-size: 0.6em;
+	letter-spacing: 2px; 
+}
+section.sport-people .nav-dots {
+	width: 14%;
+	top: 101%;
+	left: 38%;
+}
+section.sport-people .nav-dots .dot {
+	width: 5px;
+	height: 5px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+footer div.train button.train-button {
+	font-size: 0.6em;
+	padding: 3% 5%;
+	margin: -1% 0 0 57%;
+	border-radius: 62px;
+	-webkit-box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	        box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	letter-spacing: 2px;
+}
+footer div.train p.train-text {
+	font-size: 0.7em;
+	margin: 1% 0 0 61%;
+	letter-spacing: 1px;
+}
+
+footer div.map  p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 21%;
+}
+footer div.map div.addresses img.logo-footer {
+	top: 36%;
+	left: 34%;
+	width: 40%;
+	height: auto;
+}
+footer div.map  p.fitness-room {
+	font-size: 0.6em;
+	letter-spacing: 3px;
+	margin: 79% 0 2% 47%;
+}
+footer div.map  p.lviv {
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	margin: 0 0 3% 47%;
+}
+footer div.map  p.tel {
+	font-size: 0.6em;
+	letter-spacing: 1px;
+	margin: 0 0 0 47%;
+}
+footer div.map p.we-here {
+	font-size: 2.4em;
+	margin: 38% 0 0 7%;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 7%;
+	font-size: 4em;
+	letter-spacing: 2px;
+}
+footer div.map form[name="fitness_free"] {
+	margin-top: 5%;
+}
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	min-width: 66%;
+	font-size: 0.7em;
+	padding: 3% 0;
+	margin: 0 0 10px 22%;
+}
+footer div.map input[type="submit"] {
+	padding: 5% 8%;
+	font-size: 0.7em;
+	margin: 8% 0 0 16%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+footer div.map p.official-site {
+	margin: 6% 0 0 27%;
+}
+footer div.map p.official-site a{
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	white-space: nowrap;
+}
+footer div.map div.icons {
+	margin: 6% 0 9% 40%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+footer .pin .town {
+	font-size: 0.8em;
+	top: 0;
+	right: 50%;
+}
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 16%;
+}
+footer .pin.lviv-pin {
+	top: 37%;
+	left: 22%;
+}
+footer .pin.kiev-pin {
+	top: 34%;
+	left: 43%;
+}
+footer .pin.odessa-pin {
+	top: 54%;
+	left: 45%;
+}
+
+}
+ 
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+
+	body {
+		padding: 0;
+		margin: 0;
+		background-size: 100% auto;
+		width: 100%;
+	}
+	.hidden {
+		display: none;
+	}
+	.small-hidden {
+		display: none;
+	}
+	header .logo-header {
+	float: left;
+	margin: 3% 0 0 5%;
+	width: 16%;
+	height: auto;
+	}
+	header .logo-text {
+		font-size: 0.5em;
+		margin: -1% 0 0 15%; 
+		letter-spacing: 0;
+	}
+	header .header-tel {
+		font-size: 1em;
+		margin: -5% 5% 0 0;
+		padding-bottom: 0;
+		letter-spacing: 1px;
+		line-height: 0;
+	}
+	header .header-tel::after {
+	content: '';
+  }
+	header .everyday {
+		font-size: 0.7em;
+		margin: -3% 0 0 75%;
+	}
+
+  header h2 {
+		margin: 3% 0 0 59%;
+		font-size: 1.6em;
+		letter-spacing: 2px;
+	}
+	header h1 {
+		font-size: 4em;
+		margin: -2.5% 12% 0 0; 
+		padding: 0;
+	}
+	header form[name="want_sports_legs"] {
+	margin-right: 11%;
+	margin-top: 0;
+	}
+	header input[name="name"],
+	header input[name="email"] {
+	width: 60%;
+	border-bottom: 2px solid #5327ff;
+	font-size: 0.6em;
+	padding: 1% 0;
+	margin: 0 0 20px 10%;
+	}
+	header input[type="submit"] {
+	padding: 6% 8%;
+	font-size: 0.7em;
+	margin: 2% 8% 0 0;
+	border-radius: 100px;
+	letter-spacing: 1px;
+	}
+	
+  section.cool h2 {
+		font-size: 1.5em;
+		letter-spacing: 3px;
+		margin: 2% 0 0 14%;
+	}
+	section.cool h2.active-cool {
+		margin-top: -1%;
+		margin-left: 13.5%;
+		font-size: 2.7em;
+		padding: 0;
+		letter-spacing: 0;
+	}
+	section.cool .text-cool {
+		font-size: 0.6em;
+		letter-spacing: 1px;
+		margin: 1% 0 0 16%;
+	}
+	section.cool button.cool-button-play {
+		margin: 5% 0 0 12%;
+	}
+	section.cool button.cool-button-play img {
+		width: 47%;
+		height: auto;
+	}
+
+section.free-bunner ul.decor-dots {
+	margin: 197% 0 0 0;
+}
+section.free-bunner p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 22%;
+}
+section.free-bunner img.simulators {
+	width: 22%;
+	height: auto;
+	top: 237px;
+	left: 22%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	top: 347px;
+	left: 25%;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	line-height: 0;
+}
+section.free-bunner h3.sim-text::after {
+	display: inline-block;
+	margin: 0 0 5px 13px;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner h3.tren-text::after {
+	display: inline-block;
+	margin: 0 0 0 34px;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 4px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+section.free-bunner img.main-bunner {
+	width: 30%;
+	height: auto;
+	top: 3%;
+	left: 39%;
+}
+section.free-bunner img.trenera {
+	width: 22%;
+	height: auto;
+	top: 20%;
+	left: 67%;
+}
+section.free-bunner h3.tren-text {
+	top: 40%;
+	left: 76%;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	line-height: 0.5em;
+}
+section.free-bunner form[name="free_week"] {
+	margin-right: 0;
+	margin-top: 43%;
+	margin-left: 49%;
+}
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	min-width: 65%;
+	font-size: 0.5em;
+	padding: 3% 0;
+	margin: 0 0 9px 10%;
+}
+section.free-bunner input[type="submit"] {
+	padding: 5% 7%;
+	font-size: 0.5em;
+	margin: 7% 0 15% 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+}
+section.sport-people {
+	width: 100%;
+	background: url(../img/slider-bg.jpg) no-repeat;
+	background-size: 100% auto;
+	margin-top: 1%;
+	padding-bottom: 5%;
+}
+
+section.sport-people p.sport-header {
+	font-size: 1.6em;
+	letter-spacing: 2px;
+	margin: 6% 0 0 16%;
+}
+section.sport-people h3 {
+	font-size: 2.2em;
+	line-height: 0.9em;
+	letter-spacing: 3px;
+	margin-top: -25px;
+	margin-left: 16%;
+}
+section.sport-people .slider h5 {
+	font-size: 1.4em;
+	margin: 5.5% 0 0 32%;
+}
+section.sport-people .slider p.period-time {
+	font-size: 0.5em ;
+	margin: 0 0 0 32%;
+	letter-spacing: 1px;
+}
+section.sport-people .slider p.people-text {
+	font-size: 0.5em;
+	margin: 3% 0 0 32%;
+	width: 22%;
+}
+section.sport-people .second-slide {
+	top: 4%;
+	right: -37%;
+}
+section.sport-people .second-slide img {
+	width: 43%;
+	height: auto;
+}
+section.sport-people .nav-arrow {
+	width: 27%;
+	top: 103%;
+	left: 30%;
+	z-index: 15;
+	font-size: 0.4em;
+	letter-spacing: 2px; 
+}
+section.sport-people .nav-dots {
+	width: 14%;
+	top: 99%;
+	left: 38%;
+}
+section.sport-people .nav-dots .dot {
+	width: 4px;
+	height: 4px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+footer div.train button.train-button {
+	font-size: 0.5em;
+	padding: 3% 5%;
+	margin: -1% 0 0 57%;
+	border-radius: 62px;
+	-webkit-box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	        box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	letter-spacing: 2px;
+}
+footer div.train p.train-text {
+	font-size: 0.6em;
+	margin: 1% 0 0 61%;
+	letter-spacing: 1px;
+}
+
+footer div.map  p.text-dovn {
+	font-size: 0.8em;
+	margin-right: 21%;
+}
+footer div.map div.addresses img.logo-footer {
+	top: 45%;
+	left: 16%;
+	width: 23%;
+	height: auto;
+}
+footer div.map  p.fitness-room {
+	font-size: 0.5em;
+	letter-spacing: 1px;
+	margin: 37% 0 2% 24%;
+}
+footer div.map  p.lviv {
+	font-size: 0.5em;
+	letter-spacing: 1px;
+	margin: 0 0 1% 24%;
+}
+footer div.map  p.tel {
+	font-size: 0.5em;
+	letter-spacing: 1px;
+	margin: 0 0 0 24%;
+}
+footer div.map p.we-here {
+	font-size: 1.5em;
+	margin: -35% 0 0 54%;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 53%;
+	font-size: 2.7em;
+	letter-spacing: 1px;
+}
+footer div.map form[name="fitness_free"] {
+	margin-top: 5%;
+	margin-left: 47%;
+}
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	min-width: 38%;
+	font-size: 0.7em;
+	padding: 2% 0;
+	margin: 0 0 10px 22%;
+}
+footer div.map input[type="submit"] {
+	padding: 3% 5%;
+	font-size: 0.7em;
+	margin: 3% 0 10% 16%;
+	border-radius: 100px;
+	letter-spacing: 1px;
+}
+footer div.map p.official-site {
+	margin: 6% 0 0 27%;
+}
+footer div.map p.official-site a{
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	white-space: nowrap;
+}
+footer div.map div.icons {
+	margin: 6% 0 9% 40%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+footer .pin .town {
+	font-size: 0.8em;
+	top: 0;
+	right: 50%;
+}
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 15%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 16px;
+	height: 16px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 23px;
+	left: 16%;
+}
+footer .pin.lviv-pin {
+	top: 37%;
+	left: 22%;
+}
+footer .pin.kiev-pin {
+	top: 34%;
+	left: 43%;
+}
+footer .pin.odessa-pin {
+	top: 54%;
+	left: 45%;
+}
+  
+}
+

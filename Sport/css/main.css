@@ -1,0 +1,1110 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	background: url(../img/main-back.jpg) no-repeat;
+	background-color: #000;
+	background-size: 100% auto;
+	width: 100%;
+}
+
+.hidden {
+	display: block;
+}
+
+header {
+	padding-bottom: 15.6%;
+}
+header .logo-header {
+	float: right;
+	margin: 17% 0 0 0;
+}
+header .logo-text {
+	color: #414141;
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 0.87em;
+	display: inline-block;
+	margin: 19% 0 0 6%; 
+	letter-spacing: 3px;
+}
+
+header .header-tel {
+	float: right;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	margin: 3% 18% 0 0;
+	padding-bottom: 0;
+	letter-spacing: 1px;
+	line-height: 0;
+}
+header .header-tel::after {
+	content: url(../img/allo.png);
+}
+header .everyday {
+	color: #fff;
+	font-size: 0.75em;
+	font-family: "UbuntuMediumItalic";
+	margin: 2px 0 0 65%;
+}
+header .everyday .upper-num {
+	font-size: 0.3em;
+	vertical-align: top;
+}
+header ul.decor-dots {
+	width: 100%;
+	float: right;
+	margin: 97% 0 0 0;
+	padding: 0 0 0 70%;
+	list-style-type: none;
+}
+header ul.decor-dots li {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #4b37ff;
+	margin-bottom: 50%;
+}
+header ul.decor-dots li.active-slide {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: pulsshad 2s ease-in-out;
+	        animation: pulsshad 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsshad {
+		0% {-webkit-transform:scale(.1);transform:scale(.1);opacity: 0.0;}
+		50%{opacity: 1;}
+		100%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity: 0.0;}
+}
+
+@keyframes pulsshad {
+		0% {-webkit-transform:scale(.1);transform:scale(.1);opacity: 0.0;}
+		50%{opacity: 1;}
+		100%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity: 0.0;}
+}
+
+header p.text-dovn {
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	display: block;
+	float: right;
+	color:#414141;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	margin-right: 23%;
+}
+header .header-light {
+	background: transparent;
+}
+
+header h2 {
+	margin: 10% 0 0 50%;
+	text-transform: uppercase;
+	font-size: 4em;
+	display: table;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2f2585), to(#1a9bff));
+	background: -webkit-linear-gradient(top, #2f2585, #1a9bff);
+	background: -o-linear-gradient(top, #2f2585, #1a9bff);
+	background: linear-gradient(to bottom, #2f2585, #1a9bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Conv_Gilroy ExtraBold";
+	padding: 0;
+	letter-spacing: 5px;
+}
+header h1 {
+	text-align: right;
+	text-transform: uppercase;
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 10em;
+	color: #fff;
+	margin: -20px 19% 0 0; 
+	padding: 0;
+}
+header form[name="want_sports_legs"] {
+	float: right;
+	margin-right: 20%;
+	margin-top: 5px;
+}
+header .header-light:hover {
+	background: url(../img/light-header.png) no-repeat;
+	background-position-x: 80%;
+	background-position-y: 700%;
+}
+header input[name="name"],
+header input[name="email"] {
+	outline:none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	display: block;
+	min-width: 80%;
+	color: #fff;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent; 
+	border-bottom: 2px solid #5327ff;
+	background: transparent;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+	padding: 3% 0;
+	margin: 0 0 10px 10%;
+}
+header ::-webkit-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+header ::-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+header :-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+header :-ms-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+header input[type="submit"] {
+	color: #fff;
+	padding: 7% 9%;
+	border: none;
+	background: -webkit-gradient(linear, right bottom, left top, from(#12acff), to(#5327ff));
+	background: -webkit-linear-gradient(bottom right, #12acff, #5327ff);
+	background: -o-linear-gradient(bottom right, #12acff, #5327ff);
+	background: linear-gradient(to top left, #12acff, #5327ff);
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 1.8em;
+	display: inline-block;
+	margin: 10% 10% 0 0;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	outline: 0;
+}
+header input[type="submit"] {
+	border-radius: 100px;
+	-webkit-transition: -webkit-box-shadow 1s linear;
+	transition: -webkit-box-shadow 1s linear;
+	-o-transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear, -webkit-box-shadow 1s linear;
+}
+header input[type="submit"]:hover {
+	-webkit-box-shadow: 0 0 50px #5327ff;
+	        box-shadow: 0 0 50px #5327ff;
+}
+
+section.cool ul.decor-dots {
+	width: 100%;
+	float: right;
+	margin: 450px 0 0 0;
+	padding: 0 0 0 70%;
+	list-style-type: none;
+}
+section.cool ul.decor-dots li {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #4b37ff;
+	margin-bottom: 50%;
+}
+section.cool ul.decor-dots li.active-slide {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: pulsshad 2s ease-in-out;
+	        animation: pulsshad 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+section.cool p.text-dovn {
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	display: block;
+	float: right;
+	color:#414141;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	margin-right: 23%;
+}
+section.cool h2 {
+	color: #fff;
+	font-size: 3.6em;
+	font-family: "Conv_Gilroy ExtraBold";
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 11% 0 0 0;
+}
+section.cool h2.active-cool {
+	margin-top: -5px;
+	text-transform: uppercase;
+	font-size: 6.3em;
+	display: table;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2f2585), to(#1a9bff));
+	background: -webkit-linear-gradient(top, #2f2585, #1a9bff);
+	background: -o-linear-gradient(top, #2f2585, #1a9bff);
+	background: linear-gradient(to bottom, #2f2585, #1a9bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Conv_Gilroy ExtraBold";
+	padding: 0;
+	letter-spacing: 3px;
+}
+section.cool .text-cool {
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Conv_Gilroy Light';
+	letter-spacing: 2px;
+	margin: 0 0 0 2%;
+}
+section.cool .text-cool span {
+	font-family: "Conv_Gilroy ExtraBold";
+}
+section.cool button.cool-button-play {
+	background: transparent;
+	border: none;
+	outline: none;
+	margin: 8% 0 0 13%;
+	border-radius: 50%;
+	-webkit-transition-property: background, -webkit-box-shadow;
+	transition-property: background, -webkit-box-shadow;
+	-o-transition-property: background, box-shadow;
+	transition-property: background, box-shadow;
+	transition-property: background, box-shadow, -webkit-box-shadow;
+	-webkit-transition-duration: 1s;
+	     -o-transition-duration: 1s;
+	        transition-duration: 1s;
+	-webkit-transition-timing-function: ease-in-out;
+	     -o-transition-timing-function: ease-in-out;
+	        transition-timing-function: ease-in-out;
+}
+section.cool button.cool-button-play:hover {
+	background: rgba(76,52,255,0.1);
+	-webkit-box-shadow: 0 0 80px 0 rgba(76,52,255,0.5);
+	        box-shadow: 0 0 80px 0 rgba(76,52,255,0.5);
+}
+
+section.free-bunner {
+	position: relative;
+}
+section.free-bunner ul.decor-dots {
+	width: 100%;
+	float: right;
+	margin: 580px 0 0 0;
+	padding: 0 0 0 70%;
+	list-style-type: none;
+}
+section.free-bunner ul.decor-dots li {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #4b37ff;
+	margin-bottom: 50%;
+}
+section.free-bunner ul.decor-dots li.active-slide {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: pulsshad 2s ease-in-out;
+	        animation: pulsshad 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+section.free-bunner p.text-dovn {
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	display: block;
+	float: right;
+	color:#414141;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	margin-right: 23%;
+}
+
+section.free-bunner img.simulators {
+	position: absolute;
+	top: 66%;
+	left: 25%;
+	z-index: 1;
+}
+section.free-bunner h3.sim-text {
+	position: absolute;
+	text-align: left;
+	z-index: 2;
+	top: 93%;
+	left: 23%;
+	font-size: 1.2em;
+	font-family: "Conv_Gilroy ExtraBold";
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 0;
+}
+section.free-bunner h3.sim-text::after {
+	display: inline-block;
+	margin: 0 0 5px 27px;
+	content: "";
+	width: 35px;
+	height: 35px;
+	border: 8px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+@-webkit-keyframes puls {
+		0% {-webkit-transform:scale(.1);transform:scale(.1);opacity: 0.0;}
+		50%{opacity: 1;}
+		100%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity: 0.0;}
+}
+@keyframes puls {
+		0% {-webkit-transform:scale(.1);transform:scale(.1);opacity: 0.0;}
+		50%{opacity: 1;}
+		100%{-webkit-transform:scale(1.5);transform:scale(1.5);opacity: 0.0;}
+}
+
+section.free-bunner img.trenera {
+	position: absolute;
+	z-index: 3;
+	top: 38%;
+	left: 22%;
+}
+section.free-bunner h3.tren-text {
+	position: absolute;
+	text-align: left;
+	z-index: 5;
+	top: 57%;
+	left: 37%;
+	font-size: 1.2em;
+	font-family: "Conv_Gilroy ExtraBold";
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 0;
+}
+section.free-bunner h3.tren-text::after {
+	display: inline-block;
+	margin: 0 0 0 60px;
+	content: "";
+	width: 35px;
+	height: 35px;
+	border: 8px solid #5327ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: puls 2s ease-in-out;
+	        animation: puls 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+section.free-bunner img.main-bunner {
+	position: absolute;
+	top: 18%;
+	left: 37%;
+	z-index: 4;
+}
+
+section.free-bunner form[name="free_week"] {
+	margin-right: 20%;
+	margin-top: 95%;
+}
+
+section.free-bunner input[name="name"],
+section.free-bunner input[name="email"] {
+	outline:none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	display: block;
+	min-width: 65%;
+	color: #fff;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent; 
+	border-bottom: 2px solid #5327ff;
+	background: transparent;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+	padding: 3% 0;
+	margin: 0 0 10px 10%;
+}
+section.free-bunner ::-webkit-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+section.free-bunner ::-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+section.free-bunner :-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+section.free-bunner :-ms-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+section.free-bunner input[type="submit"] {
+	color: #fff;
+	padding: 4% 7%;
+	border: none;
+	background: -webkit-gradient(linear, right bottom, left top, from(#12acff), to(#5327ff));
+	background: -webkit-linear-gradient(bottom right, #12acff, #5327ff);
+	background: -o-linear-gradient(bottom right, #12acff, #5327ff);
+	background: linear-gradient(to top left, #12acff, #5327ff);
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 1.8em;
+	display: inline-block;
+	margin: 9% 0 0 10%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	outline: 0;
+}
+section.free-bunner input[type="submit"] {
+	border-radius: 100px;
+	-webkit-transition: -webkit-box-shadow 1s linear;
+	transition: -webkit-box-shadow 1s linear;
+	-o-transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear, -webkit-box-shadow 1s linear;
+}
+section.free-bunner input[type="submit"]:hover {
+	-webkit-box-shadow: 0 0 50px #5327ff;
+	        box-shadow: 0 0 50px #5327ff;
+}
+
+section.sport-people {
+	width: 100%;
+	background: url(../img/slider-bg.jpg) no-repeat;
+	background-size: 100% auto;
+	margin-top: 9%;
+	position: relative;
+	padding-bottom: 5%;
+}
+section.sport-people  ul.decor-dots {
+	width: 100%;
+	float: right;
+	margin: 375px 0 0 0;
+	padding: 0 0 0 70%;
+	list-style-type: none;
+}
+section.sport-people  ul.decor-dots li {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #4b37ff;
+	margin-bottom: 50%;
+}
+section.sport-people  ul.decor-dots li.active-slide {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: pulsshad 2s ease-in-out;
+	        animation: pulsshad 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+section.sport-people  p.text-dovn {
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	display: block;
+	float: right;
+	color: #704d51;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	margin-right: 23%;
+}
+section.sport-people p.sport-header {
+	color: #000;
+	font-size: 3.5em;
+	font-family: "Conv_Gilroy ExtraBold";
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin: 10% 0 0 0;
+}
+
+section.sport-people h3 {
+	color: #fff;
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 5.5em;
+	line-height: 1em;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin-top: -25px;
+}
+section.sport-people .slider h5 {
+	color: #000;
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 3em;
+	margin: 12% 0 0 18%;
+}
+section.sport-people .slider p.period-time {
+	color: #413430;
+	font-size: 1.1em ;
+	font-family: "Conv_Gilroy ExtraBold";
+	margin: 0 0 0 18%;
+	letter-spacing: 3px;
+}
+section.sport-people .slider p.people-text {
+	color: #000;
+	font-size: 1.1em;
+	font-family: "Conv_Gilroy Light";
+	margin: 3% 0 0 18%;
+	width: 23%;
+}
+section.sport-people .second-slide {
+	position: absolute;
+	z-index: 10;
+	top: 17.5%;
+	right: 18%;
+}
+section.sport-people .nav-arrow {
+	position: absolute;
+	width: 27%;
+	height: 0;
+	top: 105%;
+	left: 17%;
+	z-index: 15;
+	color: #555047;
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	letter-spacing: 2px; 
+}
+section.sport-people .owl-prev {
+	position: absolute;
+	left: 4%;
+	top: 45%;
+	text-decoration: underline;
+	z-index: 15;
+}
+section.sport-people .owl-next {
+	position: absolute;
+	right: 4%;
+	top: 45%;
+	text-decoration: underline;
+	z-index: 15;
+}
+section.sport-people .nav-dots {
+	position: absolute;
+	width: 18%;
+	top: 104.5%;
+	left: 26%;
+	z-index: 2;
+}
+section.sport-people .nav-dots .dot {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	background: #080909;
+	border-radius: 50%;
+	margin: 0 5% 0 0;
+}
+.nav-dots  .active {
+	border: 3px solid #a59b8a;
+}
+
+.sport-girls {
+	display: none;
+}
+.visible{
+	display: block;
+}
+
+footer {
+	background: url(../img/men-3.jpg) no-repeat;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+}
+footer div.train {
+	width: 100%;
+	padding: 5.5% 0;
+}
+footer div.train button.train-button {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: "Conv_Gilroy ExtraBold";
+	padding: 3.5% 5.5%;
+	margin: 0 0 0 10%;
+	border-radius: 100px;
+	background: #c60e2b;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	        box-shadow: 0 0 80px 20px rgba(255, 255, 255, .3);
+	white-space: nowrap;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	-webkit-transition-property: color, background;
+	-o-transition-property: color, background;
+	transition-property: color, background;
+	-webkit-transition-duration: 1s;
+	     -o-transition-duration: 1s;
+	        transition-duration: 1s;
+	-webkit-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear;
+}
+footer div.train button.train-button:hover {
+	color: #c60e2b;
+	background: #fff;
+}
+footer div.train p.train-text {
+	white-space: nowrap;
+	color: rgba(255, 255, 255, .6);
+	opacity: 0.8;
+	font-size: 1.1em;
+	font-family: "Conv_Gilroy ExtraBold";
+	margin: 3% 0 0 16%;
+	letter-spacing: 3px;
+}
+footer div.map ul.decor-dots {
+	width: 100%;
+	float: right;
+	margin: 275px 0 0 0;
+	padding: 0 0 0 70%;
+	list-style-type: none;
+}
+footer div.map  ul.decor-dots li {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #4b37ff;
+	margin-bottom: 50%;
+}
+footer div.map  ul.decor-dots li.active-slide {
+	width: 14px;
+	height: 14px;
+	-webkit-box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	        box-shadow: 0 0 30px 2px rgba(77, 51, 255, .8);
+	-webkit-animation: pulsshad 2s ease-in-out;
+	        animation: pulsshad 2s ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+footer div.map  p.text-dovn {
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	display: block;
+	float: right;
+	color: #393a3b;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	margin-right: 23%;
+}
+footer div.map div.addresses {
+	position: relative;
+}
+footer div.map div.addresses img.logo-footer {
+	position: absolute;
+	top: 47%;
+	left: 7%;
+}
+
+footer div.map  p.fitness-room {
+	color: #393a3b;
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 119% 0 7% 25%;
+}
+footer div.map  p.lviv {
+	color: #fff;
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0 0 4% 25%;
+}
+footer div.map  p.tel {
+	color: #393a3b;
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 0 0 0 25%;
+}
+footer div.map  p.tel span {
+	color: #45474a;
+}
+footer div.map p.we-here {
+	color: #fff;
+	font-size: 3.6em;
+	font-family: "Conv_Gilroy ExtraBold";
+	margin: 60% 0 0 10%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 0.8em;
+}
+footer div.map h2.come {
+	margin: 0 0 0 10%;
+	text-transform: uppercase;
+	font-size: 6.3em;
+	display: table;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2f2585), to(#1a9bff));
+	background: -webkit-linear-gradient(top, #2f2585, #1a9bff);
+	background: -o-linear-gradient(top, #2f2585, #1a9bff);
+	background: linear-gradient(to bottom, #2f2585, #1a9bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: "Conv_Gilroy ExtraBold";
+	padding: ;
+	letter-spacing: 3px;
+}
+
+footer div.map form[name="fitness_free"] {
+	margin-top: 12%;
+	position: relative;
+}
+
+footer div.map input[name="name"],
+footer div.map input[name="email"] {
+	outline:none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	display: block;
+	min-width: 75%;
+	color: #fff;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent; 
+	border-bottom: 2px solid #395dfe;
+	background: transparent;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+	padding: 3% 0;
+	margin: 0 0 10px 26%;
+}
+footer div.map ::-webkit-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+footer div.map ::-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+footer div.map :-moz-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+footer div.map :-ms-input-placeholder {
+	color: #fff;
+	text-align: left;
+	font-family: 'Conv_Gilroy Light';
+	font-size: 1em;
+}
+footer div.map input[type="submit"] {
+	color: #fff;
+	padding: 5% 8%;
+	border: none;
+	background: -webkit-gradient(linear, right bottom, left top, from(#12acff), to(#5327ff));
+	background: -webkit-linear-gradient(bottom right, #12acff, #5327ff);
+	background: -o-linear-gradient(bottom right, #12acff, #5327ff);
+	background: linear-gradient(to top left, #12acff, #5327ff);
+	font-family: "Conv_Gilroy ExtraBold";
+	font-size: 1.5em;
+	display: inline-block;
+	margin: 8% 0 0 13%;
+	border-radius: 100px;
+	letter-spacing: 2px;
+	outline: 0;
+}
+footer div.map input[type="submit"] {
+	border-radius: 100px;
+	-webkit-transition: -webkit-box-shadow 1s linear;
+	transition: -webkit-box-shadow 1s linear;
+	-o-transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear;
+	transition: box-shadow 1s linear, -webkit-box-shadow 1s linear;
+
+}
+footer div.map input[type="submit"]:hover {
+	-webkit-box-shadow: 0 0 50px #5327ff;
+	        box-shadow: 0 0 50px #5327ff; 
+}
+
+footer div.map p.official-site {
+	margin: 10% 0 0 30%;
+}
+footer div.map p.official-site a{
+	color: #115b92;
+	font-size: 1em;
+	font-family: "Conv_Gilroy ExtraBold";
+	letter-spacing: 2px;
+	text-decoration: underline;
+	-webkit-transition: color 1s linear;
+	-o-transition: color 1s linear;
+	transition: color 1s linear;
+}
+
+footer div.map p.official-site a:hover {
+	color: #fff;
+}
+footer div.map div.icons {
+	margin: 8% 0 8% 47%;
+}
+footer div.map div.icons span {
+	margin-right: 20px;
+}
+footer div.map div.icons span a{
+	text-decoration: none;
+	color: #4c4f52;
+	-webkit-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 1s;
+	     -o-transition-duration: 1s;
+	        transition-duration: 1s;
+	-webkit-transition-timing-function: ease-out;
+	     -o-transition-timing-function: ease-out;
+	        transition-timing-function: ease-out;
+}
+footer div.map div.icons span a:hover {
+	color: #3b58ff;
+}
+
+footer .pin {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	cursor: pointer;
+}
+footer .pin .town {
+	position: absolute;
+	color: #2a7cfd;
+	font-size: 0.8em;
+	font-family: "Conv_Gilroy ExtraBold";
+	text-transform: uppercase;
+	top: 0;
+	right: 50%;
+}
+footer .lviv-pin .town {
+	color: #fff;
+}
+
+footer .pin div.circle-lviv {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 20px;
+	height: 20px;
+	-webkit-box-shadow: 0 0 30px 0 #228cfd;
+	        box-shadow: 0 0 30px 0 #228cfd;
+	position: absolute;
+	top: 25px;
+	left: 10%;
+}
+footer .pin div.circle-kiev,
+footer .pin div.circle-odessa {
+	border-radius: 50%;
+	border: 4px solid #2782fd;
+	width: 20px;
+	height: 20px;
+	-webkit-box-shadow: 0 0 50px 0 #228cfd;
+	        box-shadow: 0 0 50px 0 #228cfd;
+	position: absolute;
+	top: 25px;
+	left: 10%;
+}
+footer .pin div.circle-lviv:before,
+footer .pin div.circle-lviv:after,
+footer .pin div.circle-kiev:before,
+footer .pin div.circle-kiev:after,
+footer .pin div.circle-odessa:before,
+footer .pin div.circle-odessa:after {
+	content: '';
+  position: absolute;
+  left: 66%;
+  top: 68%;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #287ffd;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+footer .pin div.circle-lviv:before,
+footer .pin div.circle-kiev:before,
+footer .pin div.circle-odessa:before {
+	-webkit-animation: pinBeforeWave 1s ease-in infinite;
+	        animation: pinBeforeWave 1s ease-in infinite;
+}
+
+footer .pin div.circle-lviv:after,
+footer .pin div.circle-kiev:after,
+footer .pin div.circle-odessa:after {
+  -webkit-animation: pinAfterWave 1s ease-in infinite;
+          animation: pinAfterWave 1s ease-in infinite;
+}
+
+
+@-webkit-keyframes pinBeforeWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 40px;
+        height: 40px;
+        margin-left: -21px;
+        margin-top: -21px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes pinBeforeWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 40px;
+        height: 40px;
+        margin-left: -21px;
+        margin-top: -21px;
+        opacity: 0;
+    }
+}
+ 
+@-webkit-keyframes pinAfterWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 66px;
+        height: 66px;
+        margin-left: -34px;
+        margin-top: -34px;
+        opacity: 0;
+    }
+}
+ 
+@keyframes pinAfterWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 66px;
+        height: 66px;
+        margin-left: -34px;
+        margin-top: -34px;
+        opacity: 0;
+    }
+}
+footer .pin div.circle-lviv:hover:before,
+footer .pin div.circle-lviv:hover:after,
+footer .pin div.circle-kiev:hover:before,
+footer .pin div.circle-kiev:hover:after,
+footer .pin div.circle-odessa:hover:before,
+footer .pin div.circle-odessa:hover:after {
+	 -webkit-animation-play-state: paused;
+	         animation-play-state: paused;
+}
+
+
+footer .pin.lviv-pin {
+	top: 46%;
+	left: 23%;
+}
+footer .pin.kiev-pin {
+	top: 42%;
+	left: 45%;
+}
+footer .pin.odessa-pin {
+	top: 66%;
+	left: 47%;
+}
+
+
+
+.error {
+	border-bottom: 2px solid #c60e2b !important;
+	-webkit-box-shadow: 0 0 20px 0 #c60e2b !important;
+	        box-shadow: 0 0 20px 0 #c60e2b !important;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
