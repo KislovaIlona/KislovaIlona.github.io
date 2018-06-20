@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Gochi+Hand|Raleway:300i,400i,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>background gradient animation</title>
+</head>
+<body>
+	<div class="box gradDynamic">
+  	<header>
+  		<nav class="main-menu">
+  			<ul>
+  				<li class="cup">color cop</li>
+  				<li class="picker">color picker</li>
+  				<li>color sheme</li>
+  			</ul>
+  		</nav>
+  	</header>
+
+  	<main>
+  		<section class="color-cup clearfix">
+  			<div class="column-left">
+  				<p>Preview:</p>
+  				<div id="preview"></div>
+  				<p>Color:</p>
+					<div>R: <input type="text" id="rVal" /></div>
+					<div>G: <input type="text" id="gVal" /></div>
+					<div>B: <input type="text" id="bVal"/></div>
+					<div>RGB: <input type="text" id="rgbVal"/></div>
+					<div>RGBA: <input type="text" id="rgbaVal"/></div>
+					<div>HEX: <input type="text" id="hexVal"></div>
+					<button type="button" id="nextImage">Next image</button>
+  			</div>
+
+  			<div class="column-right">
+  				<canvas id="viewport" width="850" height="650"></canvas>
+  			</div>
+  		</section>
+
+      <section class="color-picker">
+        <div class="wrapper-color">
+        <div class="column-first">
+          <p>Color: </p>
+          <table>
+            <tr>
+              <td>R: </td>
+              <td id="valR"></td>
+            </tr>
+            <tr>
+              <td>G: </td>
+              <td id="valG"></td>
+            </tr>
+            <tr>
+              <td>B: </td>
+              <td id="valB"></td>
+            </tr>
+          </table>
+          <p>Preview: </p>
+          <div class="prev-win"></div>
+          <table>
+            <tr>
+              <td>RGB: </td>
+              <td id="valRGB"></td>
+            </tr>
+            <tr>
+              <td>RGBA: </td>
+              <td id="valRGBA"></td>
+            </tr>
+            <tr>
+              <td>HEX: </td>
+              <td id="valHEX"></td>
+            </tr>
+          </table>
+          <button class="show-color-schemes">show</button>
+        </div>
+
+        <div class="column-second"></div>
+
+        <div class="column-third">
+          <div class="mono">
+            <p>Mono: </p>
+            <table>
+                <tr>
+                    <td id="m-pallet-1"><div class="tooltip"></div></td>
+                    <td id="m-pallet-2"><div class="tooltip"></div></td>
+                    <td id="m-pallet-3"><div class="tooltip"></div></td>
+                    <td id="m-pallet-4"><div class="tooltip"></div></td>
+                </tr>
+            </table>
+            <hr>
+            <button class="mono-but" type="button" disabled></button>
+          </div>
+          <div class="contrast">
+              <p>Contrast: </p>
+              <table>
+                  <tr>
+                      <td id="c-pallet-1"><div class="tooltip"></div></td>
+                      <td id="c-pallet-2"><div class="tooltip"></div></td>
+                      <td id="c-pallet-3"><div class="tooltip"></div></td>
+                      <td id="c-pallet-4"><div class="tooltip"></div></td>
+                  </tr>
+              </table>
+              <hr>
+              <button class="contrast-but" type="button" disabled></button>
+          </div>
+          <div class="triad">
+              <p>Triad: </p>
+              <table>
+                  <tr>
+                      <td id="tri-pallet-1"><div class="tooltip"></div></td>
+                      <td id="tri-pallet-2"><div class="tooltip"></div></td>
+                      <td id="tri-pallet-3"><div class="tooltip"></div></td>
+                      <td id="tri-pallet-4"><div class="tooltip"></div></td>
+                  </tr>
+              </table>
+              <hr>
+              <button class="triad-but" type="button" disabled></button>
+          </div>
+          <div class="tetrad">
+              <p>Tetrad: </p>
+              <table>
+                  <tr>
+                      <td id="tet-pallet-1"><div class="tooltip"></div></td>
+                      <td id="tet-pallet-2"><div class="tooltip"></div></td>
+                      <td id="tet-pallet-3"><div class="tooltip"></div></td>
+                      <td id="tet-pallet-4"><div class="tooltip"></div></td>
+                  </tr>
+              </table>
+              <hr>
+              <button class="tetrad-but" type="button" disabled></button>
+          </div>
+          <div class="analogy">
+              <p>Analogy: </p>
+              <table>
+                  <tr>
+                      <td id="an-pallet-1"><div class="tooltip"></div></td>
+                      <td id="an-pallet-2"><div class="tooltip"></div></td>
+                      <td id="an-pallet-3"><div class="tooltip"></div></td>
+                      <td id="an-pallet-4"><div class="tooltip"></div></td>
+                      <td id="an-pallet-5"><div class="tooltip"></div></td>
+                      <td id="an-pallet-6"><div class="tooltip"></div></td>
+                  </tr>
+              </table>
+              <hr>
+              <button class="analogy-but" type="button" disabled></button>
+          </div>
+          <div class="monochromatic">
+              <p>Monochromatic: </p>
+              <table>
+                  <tr>
+                      <td id="chrom-pallet-1"><div class="tooltip"></div></td>
+                      <td id="chrom-pallet-2"><div class="tooltip"></div></td>
+                      <td id="chrom-pallet-3"><div class="tooltip"></div></td>
+                      <td id="chrom-pallet-4"><div class="tooltip"></div></td>
+                      <td id="chrom-pallet-5"><div class="tooltip"></div></td>
+                      <td id="chrom-pallet-6"><div class="tooltip"></div></td>
+                  </tr>
+              </table>
+              <hr>
+              <button class="monochrom-but" type="button" disabled></button>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="scheme">
+        <div class="block-color-schemes"></div>
+      </section>
+
+  	</main>
+  </div>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.xcolor.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
